@@ -1,0 +1,51 @@
+body {
+  background-color: #1a1a1b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+}
+
+button {
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #1a1a1b !important;
+  cursor: pointer;
+}
+
+#remove-btn, #remove-selected-btn {
+  background-color: rgb(238, 85, 85);
+}
+
+#submit-btn {
+  background-color: #474748;
+}
+
+input {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#gif-container {
+  width: 90vw;
+  height: 90vh;
+  margin: 20px;
+}
+
+img {
+  margin: 5px;
+}
+
+.selected {
+  border: yellow 5px dotted;
+}

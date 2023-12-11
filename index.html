@@ -4,9 +4,20 @@
 <head>
   <meta charset="UTF-8">
   <title>Giphy Party!</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <h1>GIPHY PARTY!</h1>
+
+  <form action="" method="get" id="gif-form">
+    <input type="text" id="input-value" required>
+    <button type="submit" id="submit-btn">Search Giphy</button>
+    <button type="submit" id="remove-selected-btn">Remove Selected</button>
+    <button type="submit" id="remove-btn">Remove ALL</button>
+  </form>
+
+  <div id="gif-container"></div>
 
   <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.js"></script>
