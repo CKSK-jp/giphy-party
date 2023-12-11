@@ -1,2 +1,7 @@
-# giphy-party
-Applying web request framework to generate gifs through a public api
+## Giphy Party Web App
+Simple app to fetch randomly selected gifs from the giphy API using a simple user input string.
+
+#Technologies used:
+- AJAX / Axios
+- jQuery
+- HTML / CSS / Javascript
