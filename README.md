@@ -1,2 +1,2 @@
-# meme-generator
-Applying web request framework to generate memes through a public api
+# giphy-party
+Applying web request framework to generate gifs through a public api
